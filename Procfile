@@ -1,1 +1,1 @@
-web: ./heroku_web
+web: heroku_web
