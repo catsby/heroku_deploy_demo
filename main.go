@@ -9,7 +9,7 @@ import (
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "welp")
+	fmt.Fprintf(w, "Hello world, from Nitrous.io")
 }
 
 func main() {
