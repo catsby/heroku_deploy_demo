@@ -1,0 +1,15 @@
+{
+  "name": "Heroku Deploy Demo",
+  "description": "Testing out Heroku Deploy button with simple Go web app",
+  "repository":"https://github.com/catsby/heroku_deploy_demo",
+  "logo":"http://f.cl.ly/items/2h2g022F3K382A0s3N17/gopher_icon_128.png",
+  "keywords": [
+    "small",
+    "sharp",
+    "tool"
+  ],
+  "addons": [],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-go.git"
+  }
+}

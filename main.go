@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/gorilla/mux"
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello world, from Nitrous.io")
+	fmt.Fprintf(w, "Hello world, from Heroku Deploy button")
 }
 
 func main() {
