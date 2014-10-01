@@ -1,1 +1,1 @@
-A simple Go app, trying out [Nitrous.io](https://www.nitrous.io) integration with Heroku
+A simple Go app trying out the Heroku Deploy workflow with app.json
